@@ -1,0 +1,22 @@
+{
+  "name": "conversation-pit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mtomsu/conversation-pit",
+  "author": "Mark Tomsu <mark.tomsu@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "yarn swc src -d dist",
+    "start": "yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.63",
+    "@swc/core": "^1.3.96",
+    "@swc/register": "^0.1.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "openai": "^4.19.0",
+    "swc": "^1.0.11"
+  }
+}
