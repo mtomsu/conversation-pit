@@ -16,7 +16,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "openai": "^4.19.0",
+    "openai": "^4.20.0",
     "swc": "^1.0.11"
   }
 }
